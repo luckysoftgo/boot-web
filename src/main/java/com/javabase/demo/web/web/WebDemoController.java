@@ -21,7 +21,7 @@ public class WebDemoController extends BaseCommController {
 	 */
 	@RequestMapping(value ="/welcome", method = RequestMethod.GET)
 	public String welcome(){
-		return "/welcome";
+		return "welcome";
 	}
 	
 	
